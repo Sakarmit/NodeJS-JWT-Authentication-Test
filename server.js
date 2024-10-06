@@ -54,6 +54,7 @@ app.post('/api/login', (req, res) => {
                 token: null,
                 err: 'Username or password is incorrect'
             });
+            break;
         }
     }
 });
